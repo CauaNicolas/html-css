@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+h1, h2, p {
+    color: aliceblue;
+    background-image: radial-gradient(circle, yellow, blue);
+} 
+p {
+    text-align: center;
+}
+a {
+    color: aquamarine;
+}

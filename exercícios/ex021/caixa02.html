@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: cadetblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            color: azure;
+        }
+        h2 {
+            text-decoration: underline;
+        }
+        header {
+            text-align: center;
+            background-color: rgba(53, 94, 80, 0.419);
+            padding: 10px;
+            margin: 30px;
+            border-radius: 10px;
+        }
+        nav {
+            background-color: rgb(104, 104, 104);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.439);
+        }
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: 600;
+            margin-right: 50px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: rgba(53, 94, 80, 0.419);
+            padding: 10px;
+            margin: 10px;
+            text-align: justify;
+        }
+        article {
+            background-color: lightgray;
+            margin: auto;
+            padding: 10px;
+        }
+        article > aside {
+            background-color: rgba(155, 154, 154, 0.802);
+            margin: 10px;
+            padding: 5px;
+        }
+        footer {
+            background-color: rgba(34, 75, 77, 0.768);
+            text-align: center;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        #assuntos {
+            background-color: rgba(47, 73, 73, 0.583);
+            padding: 10px;
+            text-decoration: underline;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>        
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>ESPORTES POLÍTICA TECNOLOGIA</p>
+        </section>
+        <section>
+            <article id="noticias">
+                <h2>Notícias do Mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur odit dolorem esse impedit ex corporis, hic temporibus repudiandae debitis, maxime eos ad adipisci praesentium iste id nisi quis iure! Architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime rem corrupti dolores officia velit natus magnam unde, in ipsam reprehenderit, corporis alias perferendis cupiditate optio quas pariatur veniam suscipit.</p>
+                <aside>
+                    <p>Artigo de opinião</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>By 01000010</p>
+    </footer>
+</body>
+</html>
